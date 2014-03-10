@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300,700);
+
+body {
+	padding:0;
+	margin:0;
+}
+
+header {
+	width:100%;
+	height:500px;
+	background-image: url("http://fc07.deviantart.net/fs71/f/2010/290/4/1/414609acd44b84530b992e6ee88a3965-d30zj8y.jpg");
+	background-size:100% 800px;
+	background-repeat: no-repeat;
+}
+
+.nav-bar {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	color:#fff;
+	z-index: 10000;
+	height:150px;
+	overflow:hidden;
+	 -webkit-transition: height 0.3s;
+	 -moz-transition: height 0.3s;
+	 transition: height 0.3s;
+	 line-height:70px;
+}
+
+.nav-bar.shrink {
+	background-color:#3B3B3B;
+	height:70px;
+}
+
+#name {
+	display: inline-block;
+	float:left;
+	margin-left: 5%;
+}
+
+.nav-bar h1 {
+	font-size:40px;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	transition:all 0.3s;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	line-height: 40px;
+}
+
+.nav-bar.shrink h1 {
+	font-size:25px;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	transition:all 0.3s;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+}
+
+#nav-menu {
+	display: inline-block;
+	float:right;
+	margin-right: 5%;
+	line-height: 40px;
+}
+
+li {
+	display: inline-block;
+}
+
+li a{
+	text-decoration: none;
+	padding: 5px;
+	color:#fff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+}
+
+.content {
+	height:1500px;
+	background-color:#F5ECD9;
+}
+
+#architecture {
+	background-color: #fff;
+	width:100%;
+	height:500px;
+	text-align: center; 
+	padding-top: 40px;
+}
+
+#architecture h3 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+img {
+	border-radius: 10px;
+	margin: 20px;
+}
+
+#oil-painting {
+	width: 100%;
+	height:600px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.inner-span {
+	border-radius: 50%;
+	background-color: #fff;
+	width:250px;
+	height:250px;
+	display: inline-block;
+	vertical-align: middle;
+	margin:10% 5%;
+	padding:10px;
+	position: center;
+}
+
+#img1 {
+	background-image: url("http://www.history.navy.mil/photos/hi-res/KN%2010000/KN-10855.jpg");
+	background-size: 280px 280px;
+}
+
+.description {
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 300px;
+	text-align: center;
+}
+
+#img2 {
+	background-image: url("http://salesrossettiart.files.wordpress.com/2011/12/bruno-2.jpg");
+	background-size: 280px 280px;
+}
+
+#img3 {
+	background-image: url("http://upload.wikimedia.org/wikipedia/commons/e/ef/Kokel_%D0%BAolhoznyj_bazar_1934.jpg");
+	background-size: 280px 280px;
+}
+
+#about-me {
+	width: 100%;
+	height:400px;
+}
+
+footer {
+	background-color:#3B3B3B;
+	text-align: center;
+	width:100%;
+	height:50px;
+	display: inline-block;
+}
+
+footer p {
+	color:#fff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	margin-top: 20px;
+}
